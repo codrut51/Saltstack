@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="13" column="80" lean-forward="false" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+              <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510051971161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add commands for installing nano and git">
+      <created>1510052096816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1510052096816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -154,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="trying the salt.client" />
     <MESSAGE value="Add ptrint to local.cmd function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ptrint to local.cmd function" />
+    <MESSAGE value="Add commands for installing nano and git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add commands for installing nano and git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -164,7 +172,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="80" lean-forward="false" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
           <folding />
         </state>
       </provider>
