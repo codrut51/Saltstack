@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-yes | yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
+yes | yum install http://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm
 yes | yum clear expire-cache
 yes | yum install salt-minion
 yes | yum install nano
