@@ -11,4 +11,4 @@
 import salt.client as client
 
 local = client.LocalClient();
-print(local.cmd("*","cmd.run",["ifconfig"]));
+print(local.cmd("*","cmd.run",["yes | yum install git","yes | yum install nano"]));
