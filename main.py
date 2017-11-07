@@ -11,4 +11,9 @@
 import salt.client as client
 
 local = client.LocalClient();
-print(local.cmd("*","cmd.run",["yes | yum install git; yes | yum install nano"]));
+cmd = "yes | yum -y install nano;";
+cmd += "yes | yum -y install curl;";
+cmd += "yes | curl https://sdk.cloud.google.com | bash;";
+cmd += "exec -l $SHELL;";
+cmd += "yes | gcloud components install kubectl";
+print(local.cmd("*","cmd.run",[cmd]));
