@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef913762-c5d0-4a9c-a597-667d922f9171" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt-minion.sh" afterPath="$PROJECT_DIR$/salt-minion.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -217,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510069409238</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add commands salt-minion start and enable">
+      <created>1510069493585</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1510069493585</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -255,7 +261,8 @@
     <MESSAGE value="Install gcloud, kubectl" />
     <MESSAGE value="Add sh file" />
     <MESSAGE value="Add sh file for salt-minion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sh file for salt-minion" />
+    <MESSAGE value="Add commands salt-minion start and enable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add commands salt-minion start and enable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
