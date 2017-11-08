@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef913762-c5d0-4a9c-a597-667d922f9171" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variable.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minion" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt-minion.sh" afterPath="$PROJECT_DIR$/salt-minion.sh" />
     </list>
@@ -25,21 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salt-minion.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="salt-minion.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/salt-minion.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="126">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variable.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="minion" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minion">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variable.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variable.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -54,6 +64,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hipe</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,15 +77,16 @@
       <list>
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/googlecloud.sh" />
-        <option value="$PROJECT_DIR$/salt-minion.sh" />
         <option value="$PROJECT_DIR$/variable.sh" />
+        <option value="$PROJECT_DIR$/minion" />
+        <option value="$PROJECT_DIR$/salt-minion.sh" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="928" />
+    <option name="width" value="1822" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -264,14 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510127374158</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add variable change file">
+      <created>1510127447383</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1510127447383</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="1822" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17843665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18166849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -304,7 +327,8 @@
     <MESSAGE value="Add sh file for salt-minion" />
     <MESSAGE value="Add commands salt-minion start and enable" />
     <MESSAGE value="Add -y for unsupervise creating" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add -y for unsupervise creating" />
+    <MESSAGE value="Add variable change file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add variable change file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -338,18 +362,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt-minion.sh">
+    <entry file="file://$PROJECT_DIR$/variable.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="72">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variable.sh">
+    <entry file="file://$PROJECT_DIR$/minion">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="327">
+          <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt-minion.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
       </provider>
